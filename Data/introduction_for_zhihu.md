@@ -8,7 +8,6 @@
 
 ## 
 
-
 <img src="https://www.zhihu.com/equation?tex=Sum=\sum_{i=0}^{n}{\sqrt{x_i^2+y_i^2}}\\
 Sum2=\sum_{i=2}^{n}{\sqrt{x_i^2+y_i^2}}
 " alt="Sum=\sum_{i=0}^{n}{\sqrt{x_i^2+y_i^2}}\\
