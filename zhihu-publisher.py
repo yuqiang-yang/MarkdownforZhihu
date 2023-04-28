@@ -103,7 +103,7 @@ def reduce_image_size():
 
 # Push your new change to github remote end
 def git_ops():
-    subprocess.run(["git","add","-A"])
+    subprocess.run(["git","add","."])
     subprocess.run(["git","commit","-m", "update file "+args.input.stem])
     subprocess.run(["git","push", "-u", "origin", "master"])
 
