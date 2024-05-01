@@ -9,7 +9,7 @@ import codecs
 import subprocess
 import chardet
 import functools
-
+#author1
 from PIL import Image
 from pathlib2 import Path
 from shutil import copyfile
@@ -24,6 +24,7 @@ COMPRESS_THRESHOLD = 5e5 # The threshold of compression
 
 # The main function for this program
 def process_for_zhihu():
+    #ahthout1
     if args.compress:
         reduce_image_size()
     if args.encoding is None:
@@ -81,7 +82,7 @@ def image_ops(_lines):
 # Deal with table. Just add a extra \n to each original table line
 def table_ops(_lines):
     return re.sub("\|\n",r"|\n\n", _lines)
-
+#author1
 # Reduce image size and compress. It the image is bigger than threshold, then resize, compress, and change it to jpg.
 def reduce_image_size():
     global image_folder_path
