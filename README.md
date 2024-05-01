@@ -1,11 +1,10 @@
-# Markdown4Zhihu
-
-作者1的第一次修改
+# 	Markdown4Zhihu
 
 
 
-作者1的第二次修改
+author 22
 
+<<<<<<< HEAD
 
 
 作者1的第三3次修改
@@ -26,3 +25,5 @@
 `python zhihu-publisher.py --input="./Data/一个测试文档.md"`
 
 4. OK，all set. 在`Data`目录下，你可以看到一个`一个测试文档_for_zhihu.md`的文件，将它上传至知乎编辑器即可。
+=======
+>>>>>>> refs/remotes/origin/main
